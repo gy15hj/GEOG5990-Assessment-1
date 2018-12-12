@@ -10,7 +10,7 @@ This model runs from a GUI. On running this code a window will appear. Within
 this window the model will run on selection of 'Model' > 'Run Model' within 
 the menu bar. 
 
-On running the model, a number of agents (set as 10 as default) will move 
+On running the model, a number of agents (set at 10 as default) will move 
 around the environment which will change colour to represent the agents 
 'eating'/removing the environment. The agents retain whatever they remove from 
 the environment in their store, and can share their store with nearby agents if
@@ -93,14 +93,6 @@ random_seed = 1 #define random seed
 ##############################################################################
 
 ##############################################################################
-############################## CREATE LISTS ##################################
-##############################################################################
-
-agents = [] #create agent list to which to append agents once generated 
-
-##############################################################################
-
-##############################################################################
 ########################### READ IN HTML FILE  ###############################
 ##############################################################################
 
@@ -131,6 +123,7 @@ print(td_xs)
 ##############################################################################
 ############################# CREATE AGENTS ##################################
 ##############################################################################
+agents = [] #create agent list to which to append agents once generated
 
 #ax.set_autoscale_on(False)
 for i in range(num_of_agents):
