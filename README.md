@@ -1,4 +1,4 @@
-# gy15hj.github.io
+# Assessment 1 - Building an ABM
 
 This agent based model relies on two files - ‘200925978 - ABM’ and the ‘agentframework’. Open these files within Spyder and ensure that the graphic settings are set to tkinker before running the code. 
 
